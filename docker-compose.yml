@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  app:
+    image: codait/max-facial-age-estimator:latest
+    ports:
+      - 5010:5000
+    stdin_open: true
+    tty: true
