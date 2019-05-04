@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   app:
-    image: codait/max-facial-age-estimator:latest
+    image: codait/max-facial-age-estimator-web-app:latest
     ports:
       - 5010:5000
       - 7000:7000
